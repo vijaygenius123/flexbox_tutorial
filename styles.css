@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex{
+   display: flex;
+    background: wheat;
+}
+
+.box{
+    height: 100px;
+    min-width: 100px;
+}
+
+.one{
+    background: red;
+}
+
+.two{
+    background: blue;
+}
+
+.three{
+    background: green;
+}
