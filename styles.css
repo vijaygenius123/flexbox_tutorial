@@ -1,31 +1,40 @@
-*{
+* {
     margin: 0;
 }
 
-.wrapper{
+.wrapper {
     width: 100%;
     margin: 0 auto;
 }
 
-.flex{
-   display: flex;
-    background: wheat;
-    flex-wrap: wrap;
+nav {
+    background: #333;
 }
 
-.box{
-    height: 100px;
-    flex: 1 0 20rem;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-.one{
-    background: red;
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1rem;
 }
 
-.two{
-    background: blue;
+nav a:hover {
+    background: #555;
 }
 
-.three{
-    background: green;
+
+@media screen and (min-width: 768px) {
+    nav{
+        display: flex;
+        justify-content:  space-between;
+    }
+    nav ul {
+        display: flex;
+        justify-content: end;
+    }
 }
